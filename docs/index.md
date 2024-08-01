@@ -1,7 +1,7 @@
 ---
 title: Getting Started
 author: 
-updated: 2024/07/12
+updated: 2024/08/01
 date: 2024/07/09
 ---
 

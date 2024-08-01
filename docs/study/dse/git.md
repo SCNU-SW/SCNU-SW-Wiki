@@ -535,4 +535,6 @@ Git 本身自带有 GUI，市面上也有很多优秀的 Git GUI 工具，例如
 
 [^note4]: [Sourcetree](https://www.sourcetreeapp.com/)
 
+---
+
 本页来源：[OI-Wiki](https://oi-wiki.org)

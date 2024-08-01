@@ -783,4 +783,6 @@ $\rightarrow$ 在同一文件夹下新建一个同名的 BibTeX 文件，用正�
 
 **本文译自 [http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf](https://web.archive.org/web/20220309055041/http://www.docs.is.ed.ac.uk/skills/documents/3722/3722-2014.pdf)**, 依据其他文献略有修改。
 
+---
+
 本页来源：[OI-Wiki](https://oi-wiki.org)
