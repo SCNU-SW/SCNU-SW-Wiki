@@ -21,9 +21,7 @@ date: 2024/07/09
 
 -   ==请务必确保文档中引用的 **外链** 图片已经全部转存到了 **本库内** （大类分类文件夹中） 对应的 `images` 文件夹中（防止触发某些网站的防盗链），建议处理成 `MD 文档名称 + 编号` 的形式（可参考已有文档中图片的处理方式）。例如：本篇文档的文件名称为 format，则文档中引用的第一张图片的名字为 `format1.png`。==
 
--   ==推荐使用 [图片处理工具](https://imagestool.com/zh_CN/) 对图片格式进行转换，推荐PNG格式，若图片过大可进行压缩。==
-
--   推荐使用 SVG 格式的图片[^ref3]，以获取较好的清晰度和缩放效果。
+-   ==推荐使用 [图片处理工具](https://imagestool.com/zh_CN/) 对图片格式进行转换，推荐WEBP格式，若图片过大可进行压缩。==
 
 -   请确保您的文档中的引用链接的稳定性。**不推荐** 引用 **自建** 服务中的资源。
 
@@ -246,8 +244,6 @@ date: 2024/07/09
 [^ref1]: [cstdio stdio.h namespace](https://stackoverflow.com/questions/10460250/cstdio-stdio-h-namespace)
 
 [^ref2]: [CCF 关于恢复 NOIP 竞赛的公告 - 中国计算机学会](https://www.ccf.org.cn/c/2020-01-21/694716.shtml)
-
-[^ref3]: [SVG|MDN](https://developer.mozilla.org/zh-CN/docs/Web/SVG)
 
 ---
 
