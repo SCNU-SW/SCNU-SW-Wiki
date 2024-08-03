@@ -86,7 +86,7 @@ date: 2024/07/09
 
 ### 在构建的网页中预览变更
 
-在 Pull Request 页面下方的 Check box 提示 preview 构建完成后，可访问 [preview.scnusw.online](https://preview.scnusw.online) 页面预览效果。
+在 Pull Request 页面下方的 Check box 提示 preview 构建完成后（一分钟左右），可访问 [preview.scnusw.online](https://preview.scnusw.online) 页面预览效果。
 
 ### 使用 Git 在本地进行编辑
 
