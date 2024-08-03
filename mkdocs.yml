@@ -14,7 +14,7 @@ nav:
   - 黄页:
     - 黄页简介: contact/index.md
   - 校园学习:
-    - 学在华师简介: study/index.md
+    - 校园学习简介: study/index.md
     # - 行知书院:
     - 数据科学与工程学院:
       - 生涯规划: 
@@ -29,13 +29,11 @@ nav:
     # - 商学院:
     # - 创意设计学院:
   - 校园生活:
-    - 生活在华师简介: life/index.md
+    - 校园生活简介: life/index.md
   - 社团活动:
     - 社团活动简介: organizations/index.md
   - 周边:
     - 周边简介: surroundings/index.md
-
-
 
 
 theme:
@@ -70,6 +68,7 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
+    - navigation.prune
     - navigation.top
     - navigation.footer
     - navigation.tracking
@@ -77,14 +76,11 @@ theme:
     - search.suggest
     - toc.follow
     - content.action.edit
+    - content.code.copy
 
   font:
     text: Fira Sans
     code: Fira Mono
-
-
-extra_css:
-  - stylesheets/extra.css
 
 
 # Extensions
@@ -102,9 +98,11 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.details
   - pymdownx.emoji:
-      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji 
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.highlight:
       linenums: true
+      auto_title: true
   - pymdownx.inlinehilite
   - pymdownx.keys
   - pymdownx.magiclink
@@ -126,7 +124,11 @@ markdown_extensions:
 
 
 plugins:
-  - search
+
+
+
+extra_css:
+  - stylesheets/extra.css
 
 
 extra_javascript:

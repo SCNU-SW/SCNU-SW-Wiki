@@ -84,6 +84,10 @@ date: 2024/07/09
     -   如果您需要编辑多个文件，点击键盘上的<kbd>.</kbd>按钮（或者将 URL 中的 `github.com` 更改为 `github.dev`）[^ref1]，进入 GitHub 的网页版 VS Code 编辑器并作出更改。然后使用左侧的 Source Control 选项卡，并按照本文中 [Commit 信息格式规范](#Commit-信息格式规范) 填写 commit 信息并提交修改。
 5.  这时你的更改会被自动追加在您的 Pull Request 中。
 
+### 在构建的网页中预览变更
+
+在 Pull Request 页面下方的 Check box 提示 preview 构建完成后，可访问 [preview.scnusw.online](https://preview.scnusw.online) 页面预览效果。
+
 ### 使用 Git 在本地进行编辑
 
 ???+ warning
