@@ -121,12 +121,12 @@ mjx-container>img {
     --md-footer-bg-color--dark: #2a2c38;
 }
 
-[data-md-color-scheme="slate"] .md-typeset img {
+[data-md-color-scheme="slate"] .md-typeset img:not([src*="emoji"]) {
     background: white;
     filter: brightness(0.9);
 }
 
-[data-md-color-scheme="slate"] .md-typeset img[src$=".svg"] {
+[data-md-color-scheme="slate"] .md-typeset img[src$=".svg"]:not([src*="emoji"]) {
     border: 4px solid white;
 }
 
