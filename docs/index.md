@@ -51,16 +51,9 @@ date: 2024/07/09
 
 项目开源地址是：https://github.com/SCNU-SW/SCNU-SW-Wiki
 
-<table>
-  <tr>
-    <th>名称</th>
-    <th>二维码</th>
-  </tr>
-  <tr>
-    <td style="text-align: center; vertical-align: middle; font-size: 18px;">华师手册交流群，可在群内反馈和沟通交流 <br> 群号：980148311</td>
-    <td><img src="./images/qq.webp" alt="二维码"></td>
-  </tr>
-</table>
+华师手册交流群，可在群内反馈和沟通交流，群号：980148311
+
+![](./images/qq.webp)
 
 
 
