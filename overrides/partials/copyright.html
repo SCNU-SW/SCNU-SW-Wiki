@@ -13,5 +13,17 @@
   {% endif %}
 </div>
 <div style="float:right" class="build_date_utc">
-    最近更新：{{ build_date_utc.strftime('%Y-%m-%d') }}
+    最近更新：<span id="build_date_utc">{{ build_date_utc.strftime('%Y-%m-%dT%H:%M:%SZ') }}</span>
 </div>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var utcDateStr = document.getElementById("build_date_utc").innerText;
+        var utcDate = new Date(utcDateStr);
+        var localDate = new Date(utcDate.toLocaleString("en-US", {timeZone: Intl.DateTimeFormat().resolvedOptions().timeZone}));
+        var formattedDate = localDate.getFullYear() + '-' + 
+                            ('0' + (localDate.getMonth() + 1)).slice(-2) + '-' + 
+                            ('0' + localDate.getDate()).slice(-2);
+        document.getElementById("build_date_utc").innerText = formattedDate;
+    });
+</script>

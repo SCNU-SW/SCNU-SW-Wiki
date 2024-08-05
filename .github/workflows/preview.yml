@@ -1,9 +1,6 @@
 name: preview
 
 on:
-  push:
-    branches:
-      - main
   pull_request_target:
     branches:
       - main
@@ -26,12 +23,10 @@ jobs:
           git config user.name github-actions[bot]
           git config user.email github-actions[bot]@users.noreply.github.com
 
-      # 设置 Python 环境
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
 
-      # 设置缓存 ID
       - run: echo "cache_id=$(date --utc '+%V')" >> $GITHUB_ENV 
       - uses: actions/cache@v4
         with:
@@ -40,7 +35,6 @@ jobs:
           restore-keys: |
             mkdocs-material-
 
-      # 安装 mkdocs-material
       - run: pip install mkdocs-material 
       - run: mkdocs build
 
