@@ -46,3 +46,4 @@ jobs:
           BRANCH: main
           FOLDER: site
           SSH_PRIVATE_KEY: ${{ secrets.DEPLOY_PRIVATE_KEY }}
+          SQUASH_HISTORY: true
