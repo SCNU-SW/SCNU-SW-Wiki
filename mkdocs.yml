@@ -70,7 +70,6 @@ theme:
     - navigation.tabs
     - navigation.instant
     - navigation.instant.progress
-    - navigation.prune
     - navigation.top
     - navigation.footer
     - navigation.tracking
