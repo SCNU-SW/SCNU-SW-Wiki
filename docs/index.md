@@ -56,7 +56,6 @@ date: 2024/07/09
 ![](./images/qq.webp)
 
 
-
 <script>
   // #758
   document.getElementsByClassName('md-nav__title')[1].click()
